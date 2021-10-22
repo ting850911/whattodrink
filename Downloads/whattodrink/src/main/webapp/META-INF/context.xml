@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context displayName="Servlet 3.0 Web Application" docBase="WebAppMySQL_Lab01" path="/WebAppMySQL_Lab01" reloadable="true">
+
+  <Resource name="jdbc/memberDB" type="javax.sql.DataSource"
+      username="root" password="00000000"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://127.0.0.1:3306/project"
+      connectionProperties="jdbc:mysql://localhost:3306/project?useUnicode=yes;characterEncoding=utf8;useSSL=false;serverTimezone=Asia/Taipei;useSSL=false;allowPublicKeyRetrieval=true"
+      maxTotal="8"
+      maxIdle="4"
+      maxWaitMillis="5000"
+    />
+
+
+</Context>

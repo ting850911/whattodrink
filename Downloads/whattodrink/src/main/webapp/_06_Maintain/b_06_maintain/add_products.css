@@ -1,0 +1,6 @@
+#cal_space {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex: auto;
+}

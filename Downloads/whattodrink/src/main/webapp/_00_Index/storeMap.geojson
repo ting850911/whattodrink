@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.041439585713377, 121.53300250773843]
+      },
+      "properties": {
+        "id": 1,
+        "name": "五十嵐",
+        "site": "台北市中正區新生南路一段52之3號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=A01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.04355654542155, 121.53233812862251]
+      },
+      "properties": {
+        "id": 2,
+        "name": "萬波",
+        "site": "台北市中正區八德路一段82巷9弄18號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=B01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.043685527846925, 121.53207173842131]
+      },
+      "properties": {
+        "id": 3,
+        "name": "可不可熟成紅茶",
+        "site": "台北市中正區八德路一段82巷9弄20之1號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=C01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.04886099792136, 121.54247117890323]
+      },
+      "properties": {
+        "id": 4,
+        "name": "迷克夏",
+        "site": "台北市中山區遼寧街38號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=D01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.044880565496545, 121.53515984452501]
+      },
+      "properties": {
+        "id": 5,
+        "name": "清心福全",
+        "site": "台北市大安區市民大道三段136號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=E01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.043644107731826, 121.52447871938475]
+      },
+      "properties": {
+        "id": 6,
+        "name": "CoCo",
+        "site": "台北市中正區青島東路21之10號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=F01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.04420852657232, 121.53359177782332]
+      },
+      "properties": {
+        "id": 7,
+        "name": "ComeBuy",
+        "site": "台北市大安區新生南路一段1號",
+        "web": "http://localhost:8080/whattodrink/_03_ListDrinks/StorePage?companyId=G01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+@font-face {
+  font-family: jf-openhuninn;
+  src: local("jf-openhuninn-1.1") url(./font/jf-openhuninn-1.1.ttf);
+}
+body {
+  font-family: "jf-openhuninn-1.1";
+}
+
+/* header */
+.navbar {
+  background-color: #f8e2cf;
+  padding: 12px;
+  width: 100%;
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+}
+
+/* content */
+
+/* category */
+
+body {
+  /* background-color: #fdf6f0; */
+  background-image: url(../../images/grey.png);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small-logo {
+  max-width: 100px;
+  height: auto;
+}
+.btn:hover {
+  background-color: #f8e2cf;
+  border-color: #f8e2cf;
+  color: black;
+}
+
+/* footer */
+#footer {
+  background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
+}
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
+  font-size: x-small;
+}
+.footer-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.icons i {
+  margin-right: 10px;
+}
+
+#logo {
+  height: 30px;
+}
+
+/*以下捲軸css */
+/* 整個捲軸 */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* 捲軸的軌道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/*捲軸尚未滑到的軌道*/
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+/* 滑動的區塊 */
+::-webkit-scrollbar-thumb {
+  background: #f8e2cf;
+}
+/* 滑鼠移到滑動的區塊上 */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.fw-normal {
+  margin-bottom: 15px;
+}
+
+.favorite {
+  width: 230px;
+  height: 200px;
+  margin: 23px 10px;
+  position: relative;
+}
+.favorite img {
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.heart {
+  color: #fabcb5;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  z-index: 50;
+}
+
+.favorite img:hover {
+  filter: brightness(70%);
+}
+
+
+.point {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: absolute;
+  top: 155px;
+  left: 187px;
+}
+
+/* rwd */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #menuright {
+    margin: 0px;
+  }
+
+  .hide7 {
+    display: none;
+  }
+  .show7 {
+    display: flex;
+  }
+  .qrcode {
+    height: 300px;
+  }
+  .main1 {
+    height: 60vh;
+    background: url("./image/bgsmall.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .show7-1 {
+    padding: 5px;
+  }
+}
+

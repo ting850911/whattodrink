@@ -1,0 +1,213 @@
+@font-face {
+  font-family: jf-openhuninn;
+  src: local("jf-openhuninn-1.1") url(./font/jf-openhuninn-1.1.ttf);
+}
+body {
+  font-family: "jf-openhuninn-1.1";
+}
+
+.fw-normal{
+  margin-bottom: 15px;
+}
+
+
+.btn-group{
+  display: block;
+}
+
+.btn-group>.btn{
+border : 1px dashed rgb(180, 155, 146);
+margin: 5px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+
+}
+
+
+/* header */
+.navbar {
+  background-color: #f8e2cf;
+  padding: 12px;
+  width: 100%;
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+}
+
+/* content */
+
+body {
+  /* background-color: #fdf6f0; */
+  background-image: url(../images/grey.png);
+}
+
+.btn:hover {
+  background-color: #f8e2cf;
+  border-color: #f8e2cf;
+  color: black;
+}
+
+/* footer */
+#footer {
+  background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
+}
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
+  font-size: x-small;
+}
+.footer-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.icons i {
+  margin-right: 10px;
+}
+
+#logo {
+  height: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+/*以下捲軸css */
+/* 整個捲軸 */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* 捲軸的軌道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/*捲軸尚未滑到的軌道*/
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+/* 滑動的區塊 */
+::-webkit-scrollbar-thumb {
+  background: #f8e2cf;
+}
+/* 滑鼠移到滑動的區塊上 */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+.left1 {
+  margin-top: 35px;
+  box-shadow: 3px 3px 5px 6px #cccccc6b;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+  overflow: auto;
+}
+
+.right1 {
+  margin-top: 35px;
+  box-shadow: 3px 3px 5px 6px #cccccc6b;
+  height: 80vh;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 30px;
+  overflow: auto;
+}
+
+.aa {
+  margin: 20px auto;
+  width: 90%;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+#map {
+  width: 100%;
+  height: 200px;
+}
+#accordionPanelsStayOpenExample button {
+  background: #fad0c8;
+  color: #000;
+  outline: none;
+}
+
+#accordionPanelsStayOpenExample button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.item-modal-body {
+  padding: 0px;
+}
+
+#accordionPanelsStayOpenExample button::after {
+  background-image: url(../images/下載.svg);
+}
+
+.text_box {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+}
+
+.min {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url(../images/minus.png);
+  background-size: 40px;
+  border: none;
+}
+.add {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url(../images/add.png);
+  background-size: 40px;
+  border: none;
+}
+
+/* menurwd */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #menuright {
+    margin: 0px;
+  }
+  .hide7 {
+    display: none;
+  }
+  .show7 {
+    display: flex;
+  }
+  .show7-1 {
+    padding: 5px;
+  }
+}

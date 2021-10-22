@@ -1,0 +1,12 @@
+.main {
+  height: 80vh;
+}
+.focus {
+  width: 400px;
+}
+.has-error {
+  border-color: rgba(255, 0, 0, 0.521);
+}
+.help-block {
+  color: red;
+}

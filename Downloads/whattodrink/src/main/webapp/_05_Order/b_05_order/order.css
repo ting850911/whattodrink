@@ -1,0 +1,18 @@
+.table {
+  border: black;
+}
+tr:first-child {
+  text-align: center;
+  background: #fcd8d4;
+  border: bottom 1px black;
+}
+tr {
+  text-align: center;
+}
+.hover:hover {
+  background: rgba(245, 198, 170, 0.2);
+}
+.form-select-sm {
+  background-color: #fdf6f0;
+  border: none;
+}

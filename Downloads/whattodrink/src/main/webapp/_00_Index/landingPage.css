@@ -1,0 +1,175 @@
+@font-face {
+  font-family: jf-openhuninn;
+  src: local("jf-openhuninn-1.1") url(./font/jf-openhuninn-1.1.ttf);
+}
+body {
+  font-family: "jf-openhuninn-1.1";
+}
+
+.fw-normal {
+  margin-bottom: 15px;
+}
+
+/* header */
+.navbar {
+  background-color: #f8e2cf;
+  padding: 12px;
+  width: 100%;
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+}
+
+/* content */
+body {
+  /* background-color: #fdf6f0; */
+  background-image: url(../images/grey.png);
+}
+
+.main1 {
+  height: 90vh;
+  background: url("../images/bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+}
+
+
+
+.qrcode {
+  height: 500px;
+  background: url("../images/grey.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 350px;
+  z-index: 25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+#map {
+  margin: 50px auto;
+  height: 80vh;
+  width: 80%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small-logo {
+  max-width: 100px;
+  height: auto;
+}
+.btn:hover {
+  background-color: #f8e2cf;
+  border-color: #f8e2cf;
+  color: black;
+}
+.input-group-text:hover {
+  background: #fcd8d4;
+}
+.input-group-text {
+  border: 0px;
+  border-left: 1px solid black;
+}
+#inputGroupFile02 {
+  border: 0px;
+  margin-left: unset;
+}
+
+/* footer */
+#footer {
+  background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
+}
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
+  font-size: x-small;
+}
+.footer-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.icons i {
+  margin-right: 10px;
+}
+
+#logo {
+  height: 30px;
+  margin-left: 10%;
+}
+
+/*以下捲軸css */
+/* 整個捲軸 */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* 捲軸的軌道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/*捲軸尚未滑到的軌道*/
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+/* 滑動的區塊 */
+::-webkit-scrollbar-thumb {
+  background: #f8e2cf;
+}
+/* 滑鼠移到滑動的區塊上 */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+
+@media screen and (max-width: 576px){ 
+  .hide{ 
+  display: none;
+  } 
+
+
+
+  .qrcode {
+    height: 300px;
+  }
+  .main1 {
+    height: 60vh;
+    background: url("../images/bgsmall.png");
+    background-size: cover;
+    background-position: center;
+  }
+ } 

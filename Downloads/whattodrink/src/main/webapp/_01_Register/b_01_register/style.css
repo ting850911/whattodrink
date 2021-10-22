@@ -1,0 +1,101 @@
+/* header */
+.navbar {
+  background-color: #f8e2cf;
+  padding: 12px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+/* content */
+@font-face {
+  font-family: jf-openhuninn;
+  src: local("jf-openhuninn-1.1") url(jf-openhuninn-1.1.ttf);
+}
+body {
+  background-color: #fdf6f0;
+  font-family: "jf-openhuninn-1.1";
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+a img {
+  max-width: 100px;
+  height: auto;
+}
+.btn {
+  width: 200px;
+}
+.btn:hover {
+  background-color: #fcd8d4;
+  border-color: #fcd8d4;
+  color: black;
+}
+.abc {
+  margin-right: 1px;
+  border: 1px solid black;
+}
+.input-group-text:hover {
+  background: #fcd8d4;
+}
+.input-group-text {
+  border: 0px;
+  border-left: 1px solid black;
+}
+#inputGroupFile02 {
+  border: 0px;
+  margin-left: unset;
+}
+.has-error {
+  border-color: rgba(255, 0, 0, 0.521);
+}
+.help-block {
+  color: red;
+}
+
+/* footer */
+#footer {
+  background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
+}
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
+  font-size: x-small;
+}
+.footer-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.icons i {
+  margin-right: 10px;
+}
+
+/* remove number input spinner */
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

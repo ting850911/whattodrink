@@ -1,0 +1,251 @@
+@font-face {
+  font-family: jf-openhuninn;
+  src: local("jf-openhuninn-1.1") url(./font/jf-openhuninn-1.1.ttf);
+}
+body {
+  font-family: "jf-openhuninn-1.1";
+}
+
+.fw-normal {
+  margin-bottom: 15px;
+}
+
+/* header */
+.navbar {
+  background-color: #f8e2cf;
+  padding: 12px;
+  width: 100%;
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+  left: 0px;
+}
+
+
+.btn-group{
+  display: block;
+}
+
+.btn-group>.btn{
+border : 1px dashed rgb(180, 155, 146);
+margin: 5px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+
+}
+
+
+
+
+body {
+  /* background-color: #fdf6f0; */
+  background-image: url(../../images/grey.png);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.small-logo {
+  max-width: 100px;
+  height: auto;
+}
+.btn:hover {
+  background-color: #f8e2cf;
+  border-color: #f8e2cf;
+  color: black;
+}
+.input-group-text:hover {
+  background: #fcd8d4;
+}
+.input-group-text {
+  border: 0px;
+  border-left: 1px solid black;
+}
+#inputGroupFile02 {
+  border: 0px;
+  margin-left: unset;
+}
+
+/* footer */
+#footer {
+  background-color: #f8e2cf;
+  margin-top: 50px;
+  padding: 20px;
+}
+hr {
+  background-color: white;
+  opacity: 1;
+}
+.app_download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 0px 8px 0px;
+  font-size: x-small;
+}
+.footer-content {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.icons i {
+  margin-right: 10px;
+}
+
+#logo {
+  height: 30px;
+}
+
+/*以下捲軸css */
+/* 整個捲軸 */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* 捲軸的軌道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/*捲軸尚未滑到的軌道*/
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+/* 滑動的區塊 */
+::-webkit-scrollbar-thumb {
+  background: #f8e2cf;
+}
+/* 滑鼠移到滑動的區塊上 */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+i {
+  z-index: 5;
+}
+
+.instance img {
+  max-width: 50%;
+  height: fit-content;
+  margin-right: 5px;
+}
+
+.instance h5 {
+  font-size: 16px;
+}
+
+#businessescategory input {
+  margin-bottom: 15px;
+}
+
+.allshop {
+ width:180px;
+  margin: 5px 10px;
+  position: relative;
+}
+
+.allshop p,h5{
+  margin: 0px;
+}
+
+.allshop img {
+  background-size: cover;
+  background-position: center;
+  max-width: 240px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.allshop img:hover {
+  filter: brightness(70%);
+}
+
+.point {
+  font-size: 8px;
+  position: absolute;
+  right: 8px;
+  top: 189px;
+  color: rgb(255, 255, 255);
+  z-index: 5;
+}
+
+
+
+h5.modal-title {
+  margin-left: auto;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #menuright {
+    margin: 0px;
+  }
+
+  .hide7 {
+    display: none;
+  }
+  .show7 {
+    display: flex;
+  }
+
+  .show7-1 {
+    padding: 5px;
+  }
+}
+
+
+#accordionPanelsStayOpenExample button {
+  background: #fad0c8;
+  color: #000;
+  outline: none;
+}
+
+#accordionPanelsStayOpenExample button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.item-modal-body {
+  padding: 0px;
+}
+
+#accordionPanelsStayOpenExample button::after {
+  background-image: url(../../images/下載.svg);
+}
+
+
+.text_box {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+}
+
+.min {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url(../../images/minus.png);
+  background-size: 40px;
+  border: none;
+}
+.add {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  background-image: url(../../images/add.png);
+  background-size: 40px;
+  border: none;
+}

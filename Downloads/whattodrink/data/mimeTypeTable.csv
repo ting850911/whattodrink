@@ -1,0 +1,23 @@
+Bitmap,image/bmp,bmp
+compiled source code,image/cis-cod,cod
+graphic interchange format,image/gif,gif
+image file,image/ief,ief
+JPEG image,image/jpeg,jpe
+JPEG image,image/jpeg,jpeg
+JPEG image,image/jpeg,jpg
+JPEG file interchange format,image/pipeg,jfif
+scalable vector graphic,image/svg+xml,svg
+TIF image,image/tiff,tif
+TIF image,image/tiff,tiff
+Sun raster graphic,image/x-cmu-raster,ras
+Corel metafile exchange image file,image/x-cmx,cmx
+icon,image/x-icon,ico
+portable any map image,image/x-portable-anymap,pnm
+portable bitmap image,image/x-portable-bitmap,pbm
+portable graymap image,image/x-portable-graymap,pgm
+portable pixmap image,image/x-portable-pixmap,ppm
+RGB bitmap,image/x-rgb,rgb
+X11 bitmap,image/x-xbitmap,xbm
+X11 pixmap,image/x-xpixmap,xpm
+X-Windows dump image,image/x-xwindowdump,xwd
+Serve Static PNG files,image/png,png
